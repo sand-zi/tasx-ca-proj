@@ -1,0 +1,22 @@
+.board-list {
+    padding: 15px 8px 0;
+    text-align: start;
+    .title {
+        text-align: start;
+        font-family: TechMono;
+        font-size: 18px;
+    }
+    ul {
+        margin-top: 10px;
+    }
+    .add-board-btn {
+        background-color: #1e1e1e;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+            background-color: #50c13b;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.main-container {
+    max-width: 320px;
+    margin: auto;
+
+    @include for-narrow-layout {
+        max-width: 550px;
+    }
+    @include for-normal-layout {
+        max-width: 720px;
+    }
+    @include for-wide-layout {
+        max-width: 1200px;
+    }
+}

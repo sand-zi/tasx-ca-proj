@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
+.boards {
+    background-color: #3078a8;
+    text-align: start;
+    padding: 30px;
+    flex-grow: 1;
+    text-align: center;
+
+    h1 {
+        color: white;
+        margin: auto;
+        font-family: "TechMono";
+        font-size: 60px;
+        text-shadow: 0 1px 0 rgba(9, 30, 66, 0.25);
+        @media (max-width: $mobile-breakpoint) {
+            font-size: 50px;
+        }
+        span {
+            font-size: 14px;
+        }
+    }
+
+    button {
+        font-size: 1rem;
+        border-radius: 3px;
+        height: 95px;
+        width: 170px;
+        background-color: #1e1e1e;
+        outline: none;
+        transition: 0.08sn ease-in-out;
+        &:hover {
+            background-color: #50c13b;
+        }
+    }
+
+    h2 {
+        color: white;
+        font-size: 25px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .boards-image {
+        width: 70%;
+        display: flex;
+        margin: auto;
+        border-radius: 3px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    hr {
+        width: 70%;
+    }
+}
